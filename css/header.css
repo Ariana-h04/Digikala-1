@@ -1,0 +1,294 @@
+
+.header{
+    width: 100%;
+    height: 100px;
+    box-shadow: 2px 0px 2px gray;
+
+}
+
+.header>div.header_top{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.header>div.header_bottom{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.header>div.header_top>div.top_right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.header>div.header_top>div.top_right>div.logo{
+    width: 30%;
+    height: inherit;
+
+    display: flex;
+    vertical-align: top;
+    text-align: right;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.header>div.header_top>div.top_right>div.logo>svg{
+    width: 85%;
+}
+
+.header>div.header_top>div.top_right>div.search{
+    top: 0%;
+    width: 70%;
+    height: inherit;
+
+    display: flex;
+    margin-right: -4px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+
+}
+.header>div.header_top>div.top_right>div.search>input[type=search]{
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+    border: unset;
+    background-color: #F0F0F1;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    transition: 500ms;
+
+}
+
+
+.header>div.header_top>div.top_right>div.search>input[type=search]:focus{
+    outline: unset;
+    background-color: white;
+    box-shadow: 5px 5px 25px gray;
+    width: 90%;
+    height: 50vh;
+
+}
+
+.header>div.header_top>div.top_right>div.search>input[type=search]::placeholder{
+    font-family: IranYekan;
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+}
+
+.header>div.header_top>div.top_left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    margin-right: -4px;
+    vertical-align: top;
+    box-sizing: border-box;
+
+}
+.header>div.header_top>div.top_left>div.login{
+width: fit-content;
+height: fit-content;
+padding:5px 15px 15px 15px;
+box-sizing: border-box;
+border: 1px solid lightgray;
+border-radius: 5px;
+display: flex;
+margin-top: 10px;
+
+
+
+
+}
+
+.header>div.header_top>div.top_left>div.login>a{
+
+    font-family: IranYekan;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.header>div.header_top>div.top_left>div.cart{
+    display: flex;
+    width: 50%;
+    height: 100%;
+
+}
+
+.header>div.header_bottom>div.bottom_right{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap !important;
+}
+
+
+
+.header>div.header_bottom>div.bottom_right>div.menu{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap !important;
+    vertical-align: top;
+}
+
+.header>div.header_bottom>div.bottom_right>div.menu>nav{
+    width: 100%;
+    height: 100%;
+}
+
+.header>div.header_bottom>div.bottom_right>div.menu>nav>ul{
+    display: flex;
+    flex-flow: row nowrap ;
+    list-style: none;
+    justify-content: start ;
+    padding-right: 50px;
+    box-sizing: border-box;
+    gap: 15px;
+}
+
+.header>div.header_bottom>div.bottom_right>div.menu>nav>ul>li{
+    width: fit-content;
+height: 100%;
+line-height: 40px;
+    position: relative;
+    transition: 400ms;
+
+}
+
+.header>div.header_bottom>div.bottom_right>div.menu>nav>ul>li>a{
+
+    color: gray;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-family: IranYekan !important;
+}
+
+.header>div.header_bottom>nav>div.city{
+
+    width: 20%;
+    height: inherit;
+    background-color: purple;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.mainItem{
+    color: black !important;
+    font-size: 15px !important;
+}
+
+div.subMenu{
+    width: 80vw;
+    height: 400px;
+    position: absolute;
+    box-shadow: 5px 5px 25px lightgray;
+    border-radius: 10px;
+    z-index: 20;
+    display: none;
+    transition: 400ms;
+}
+
+.header>div.menu>div.titles>ul>li:hover>div.subMenu{
+    display: block;
+
+}
+
+div.subMenu>div.titles{
+    width: 15%;
+    height: 100%;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    direction: ltr;
+}
+
+div.subMenu>div.titles>ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+div.subMenu>div.titles>ul>li{
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+div.subMenu>div.titles>ul>li>a{
+    color: black;
+    font-family: IranYekan;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+div.subMenu>div.titles>ul>li:hover{
+
+    background-color: white;
+}
+
+div.subMenu>div.titles>ul>li:hover>a{
+    color: red;
+}
+
+div.sub3Menu{
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+    transition: 400ms;
+}
+
+div.subMenu>div.titles>ul>li:hover>div.sub3Menu{
+    display: block;
+
+}
+
+.active{
+    display: block;
+}
+
+
+.header>div.header_bottom>div.bottom_right>div.menu>nav>ul>li:hover>div.subMenu{
+    display: block;
+}
+
+
+.header>div.header_bottom>div.bottom_right>div.menu>nav>ul>li:hover{
+    border-bottom: red;
+}
+
+.sub3Menu>h1{
+    font-family: IranYekan;
+}
+
+.cityTitle>a{
+    text-decoration: none;
+    color: black;
+    font-family: IranYekan;
+}
+
+
+

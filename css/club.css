@@ -1,0 +1,13 @@
+div.club{
+    display: block;
+    width: 90%;
+    height: 150px;
+    margin:auto;
+}
+
+
+div.club>img{
+    width: 100%;
+    height: 75%;
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+div.woon{
+    display: block;
+    width: 90%;
+    height: 210px;
+    margin:auto;
+}
+
+
+div.woon>img{
+    width: 100%;
+    height: 75%;
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+
+div.supermarket{
+    display: block;
+    width: 95%;
+    height: 150px;
+    margin:auto;
+}
+
+
+div.supermarket>img{
+    width: 100%;
+    height: 75%;
+    margin-top: 20px;
+}

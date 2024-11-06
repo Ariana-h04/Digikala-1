@@ -1,0 +1,148 @@
+div.advice{
+    width: 90%;
+    height: 420px;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 90px;
+}
+
+div.advice>div.adrightright{
+width: 25%;
+height: 100%;
+
+
+}
+
+div.advice>div.adrightleft{
+    width: 25%;
+    height: 100%;
+
+    
+    }
+
+
+    div.adleftright{
+        width: 25%;
+        height: 100%;
+
+    }
+    div.adleftleft{
+        width: 25%;
+        height: 100%;
+
+    }
+    
+div.advice>div.adrightright>h3{
+    font-family: IranYekan;
+    font-size: 20px;
+    color:black;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+div.advice>div.adrightleft>h3{
+    font-family: IranYekan;
+    font-size: 20px;
+    color:black;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+div.advice>div.adleftright>h3{
+    font-family: IranYekan;
+    font-size: 20px;
+    color:black;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+div.advice>div.adleftleft>h3{
+    font-family: IranYekan;
+    font-size: 20px;
+    color:black;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+div.advice>div.adrightright>h4{
+    font-family: IranYekan;
+    font-size: 10px;
+    color:gray;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+div.advice>div.adrightleft>h4{
+    font-family: IranYekan;
+    font-size: 10px;
+    color:gray;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+div.advice>div.adleftright>h4{
+    font-family: IranYekan;
+    font-size: 10px;
+    color:gray;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+div.advice>div.adleftleft>h4{
+    font-family: IranYekan;
+    font-size: 10px;
+    color:gray;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+div.advice>div.adrightright>div.image{
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+div.advice>div.adrightright>div.image>img{
+    width: 130px;
+    height: 130px;
+}
+div.advice>div.adrightleft>div.image{
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+div.advice>div.adrightleft>div.image>img{
+    width: 130px;
+    height: 130px;
+}
+div.advice>div.adleftright>div.image{
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+div.advice>div.adleftright>div.image>img{
+    width: 130px;
+    height: 130px;
+}
+div.advice>div.adleftleft>div.image{
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+div.advice>div.adleftleft>div.image>img{
+    width: 130px;
+    height: 130px;
+}

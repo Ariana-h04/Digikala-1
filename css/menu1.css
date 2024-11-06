@@ -1,0 +1,72 @@
+
+
+
+
+
+div.mainMenu1{
+    width: 100%;
+    height: 175px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.mainMenu1>div.menu1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+div.mainMenu1>div.menu1>div.image{
+width: 50px;
+height: 50px;
+
+}
+
+div.mainMenu1>div.menu1>div.image>img{
+width: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 50%;
+outline-offset:2px;
+
+
+}
+div.mainMenu1>div.menu1>div.title{
+width: 100%;
+height: 50%;
+font-family: IranYekan;
+color: #23254E;
+text-align: center;
+font-size: 12px;
+}
+
+div.mainMenu1>div.menu1>div.image>div.more{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #f0f0f1;
+}
+
+div.mainMenu1>div.menu1>div.image>div.more>div{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: gray;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
